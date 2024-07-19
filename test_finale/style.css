@@ -1,0 +1,26 @@
+#header-text{
+    background-color: #ad2a37;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+#footer-text{
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #ad2a37;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.2rem;
+}
+
+
+.card:hover{
+    transform: scale(1.05);
+    transform: 1s;
+}
+#cont{
+    text-decoration: none;
+    color: whitesmoke;
+}
