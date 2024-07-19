@@ -1,4 +1,7 @@
 function generateCard(id, title, body) {
+    /*
+    Aggiunge le card alla pagina
+  */
   const cardContainer = document.getElementById("cards-container");
   const cardHTML = `<div class="card text-center mb-3 my-card mx-auto w-25 " style="width: 18rem " id = "card-${id}">
           <div class="card-body">
@@ -11,6 +14,9 @@ function generateCard(id, title, body) {
 }
 
 function addCardsEventListener(id, title, body) {
+  /*
+  Aggiunge alla card la possibilità di andare in 
+  */
   const card_id = `card-${id}`;
   document.getElementById(card_id).addEventListener("click", (ev) => {
     localStorage.setItem("title", title);
@@ -21,6 +27,9 @@ function addCardsEventListener(id, title, body) {
 }
 
 async function main() {
+  /*
+  
+  */
   localStorage.clear();
   const url = "https://jsonplaceholder.typicode.com/posts";
   const posts = await fetch(url).then((res) => res.json());
