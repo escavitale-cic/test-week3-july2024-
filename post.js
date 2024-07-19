@@ -10,7 +10,7 @@ function main() {
     document.getElementById("post-title").innerHTML = `${title}`;
   }
   if (body) {
-    document.getElementById("post-body").innerHTML = `Post #${body}`;
+    document.getElementById("post-body").innerHTML = `${body}`;
   }
 }
 

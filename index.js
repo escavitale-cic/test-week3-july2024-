@@ -1,9 +1,9 @@
 function generateCard(id, title, body) {
   const cardContainer = document.getElementById("cards-container");
-  const cardHTML = `<div class="card text-center mb-3 my-card mx-auto" style="width: 18rem " id = "card-${id}">
+  const cardHTML = `<div class="card text-center mb-3 my-card mx-auto w-25 " style="width: 18rem " id = "card-${id}">
           <div class="card-body">
-            <h5 class="card-title">${title}</h5>
-            <p class="card-text">${body}</p>
+            <h5 class="card-title" style="font-weight: bold; font-size: 1.25rem;">${title}</h5>
+            <p class="card-text  style="font-size: 1rem;">${body}</p>
           </div>
         </div>`;
 
