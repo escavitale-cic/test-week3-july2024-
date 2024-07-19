@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Posts</title>
+        <meta name="description" content="Visualizza i post prelevati da un API.">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <h1>Posts</h1>
+            </div>
+        </header>
+        <main class="container my-4">
+            <div class="row" id="posts-container"></div>
+        </main>
+        <footer class="footer text-center py-3">
+            <p>2024 Post App</p>
+            <a href="mailto:fabrizio.lenoci@ibm.com">For info contact me</a>
+        </footer>
+
+        <template id="post-template">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+        </template>
+
+        <script src="script.js"></script>
+    </body>
+</html>
