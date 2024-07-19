@@ -12,28 +12,38 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body=>
+  <body>
     <!-- header -->
-    <header class=" w-100 border bg-danger text-center text-light m-0">
-      <h1>Posts</h1>
+    <header class="w-100 border bg-danger text-center text-light m-0">
+      <h1 id="post-header">Post</h1>
     </header>
 
     <!-- Cards -->
     <main class="min-vh-100 d-flex justify-content-center">
       <!-- post container -->
-      <div class="card-container w-75  p-5 ">
-        <h1>Post title</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt adipisci itaque eos temporibus, illo beatae? Eaque omnis illum quia sint corrupti necessitatibus, consectetur nam hic blanditiis minus soluta, earum ipsum! Earum, saepe animi velit accusantium maxime doloribus dignissimos cum voluptatum, laboriosam, quas tempore mollitia consequuntur sapiente veniam explicabo at ducimus!</p>
+      <div class="card-container w-75 p-5">
+        <h1 id="post-title">Post title</h1>
+        <p id="post-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
+          adipisci itaque eos temporibus, illo beatae? Eaque omnis illum quia
+          sint corrupti necessitatibus, consectetur nam hic blanditiis minus
+          soluta, earum ipsum! Earum, saepe animi velit accusantium maxime
+          doloribus dignissimos cum voluptatum, laboriosam, quas tempore
+          mollitia consequuntur sapiente veniam explicabo at ducimus!
+        </p>
         <a class="btn btn-danger" href="index.html" role="button">Home</a>
-
       </div>
     </main>
 
     <!-- Footer -->
-    <header class=" w-100 border bg-danger text-center m-0 py-2">
+    <footer class="w-100 border bg-danger text-center m-0 py-2">
       <span>copyright</span>
-      <p>For info <a href="mailto:Vittorio.Amato@Ibm.com" class="link-dark">Contact me</a></p>
-    </header>
+      <p>
+        For info
+        <a href="mailto:Vittorio.Amato@Ibm.com" class="link-dark">Contact me</a>
+      </p>
+    </footer>
+    <script src="post.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
